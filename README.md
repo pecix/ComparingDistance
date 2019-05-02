@@ -79,4 +79,4 @@
 ```
 
 
-***Miały być 2 endpoint'y ale testowo zrobiłem 2 dodatkowe, których już nie usuwałem.**
+***Miały być 2 endpoint'y, ale testowo zrobiłem 2 dodatkowe, których już nie usuwałem.**
