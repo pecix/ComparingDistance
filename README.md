@@ -3,6 +3,7 @@
 ###POST localhost:8080/api/localizations
 
 ####Przykładowy JSON: 
+
 [
 	{
 		"name": "Barcelona",
@@ -61,6 +62,7 @@
 ###GET localhost:8080/api/localizations/nearest
 
 ####Przykładowy JSON (przekazywany w body): 
+
 {
 	"name": "Actual Position",
 	"latitude": 53.4301818,
@@ -70,6 +72,7 @@
 ###GET localhost:8080/api/localizations/distances
 
 ####Przykładowy JSON (przekazywany w body): 
+
 {
 	"name": "Actual Position",
 	"latitude": 53.4301818,
