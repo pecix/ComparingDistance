@@ -1,4 +1,5 @@
 ##Distance Comparator
+
 ###POST localhost:8080/api/localizations
 ####Przykładowy JSON: 
 [
