@@ -4,7 +4,7 @@
 
 ####Przykładowy JSON: 
 
-[
+'''[
 	{
 		"name": "Barcelona",
 		"latitude": 41.3828939,
@@ -55,7 +55,7 @@
         "latitude": 52.2319237,
         "longitude": 21.0067265
     }
-]
+]'''
 
 ###GET localhost:8080/api/localizations
 
@@ -63,19 +63,19 @@
 
 ####Przykładowy JSON (przekazywany w body): 
 
-{
+'''{
 	"name": "Actual Position",
 	"latitude": 53.4301818,
 	"longitude": 14.5509623
-}
+}'''
 
 ###GET localhost:8080/api/localizations/distances
 
 ####Przykładowy JSON (przekazywany w body): 
 
-{
+'''{
 	"name": "Actual Position",
 	"latitude": 53.4301818,
 	"longitude": 14.5509623
-}
+}'''
 
