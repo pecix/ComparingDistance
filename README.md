@@ -1,7 +1,7 @@
 # Distance Comparator
 
-### 1. POST - localhost:8080/api/localizations
-##### Przykładowy JSON: 
+### 1. POST - localhost:8080/api/localizations - dodanie listy lokalizacji
+##### Przykładowy JSON (przekazywany w body): 
 ```
 [
     {
@@ -57,8 +57,8 @@
 ]
 ```
 
-### 2. GET - localhost:8080/api/localizations
-### 3. GET - localhost:8080/api/localizations/nearest
+### 2. GET - localhost:8080/api/localizations - zwraca wszystkie lokalizacje
+### 3. GET - localhost:8080/api/localizations/nearest - zwraca najbliższą lokalizację
 ##### Przykładowy JSON (przekazywany w body): 
 ```
 {
@@ -68,7 +68,7 @@
 }
 ```
 
-### 4. GET - localhost:8080/api/localizations/distances
+### 4. GET - localhost:8080/api/localizations/distances - zwraca nazwy i dystans w KM do wszystkich lokalizacji
 ##### Przykładowy JSON (przekazywany w body): 
 ```
 {
