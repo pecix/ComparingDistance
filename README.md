@@ -68,6 +68,7 @@
 }
 
 ###GET localhost:8080/api/localizations/distances
+
 ####Przykładowy JSON (przekazywany w body): 
 {
 	"name": "Actual Position",
