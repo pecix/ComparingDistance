@@ -1,15 +1,14 @@
-##Distance Comparator
+# Distance Comparator
 
-###POST localhost:8080/api/localizations
-
-####Przykładowy JSON: 
-
-'''[
-	{
-		"name": "Barcelona",
-		"latitude": 41.3828939,
-		"longitude": 2.1774322
-	},
+### 1. POST - localhost:8080/api/localizations
+##### Przykładowy JSON: 
+```
+[
+    {
+	"name": "Barcelona",
+	"latitude": 41.3828939,
+	"longitude": 2.1774322
+    },
     {
         "name": "Berlin",
         "latitude": 52.5170365,
@@ -55,27 +54,27 @@
         "latitude": 52.2319237,
         "longitude": 21.0067265
     }
-]'''
+]
+```
 
-###GET localhost:8080/api/localizations
-
-###GET localhost:8080/api/localizations/nearest
-
-####Przykładowy JSON (przekazywany w body): 
-
-'''{
+### 2. GET - localhost:8080/api/localizations
+### 3. GET - localhost:8080/api/localizations/nearest
+##### Przykładowy JSON (przekazywany w body): 
+```
+{
 	"name": "Actual Position",
 	"latitude": 53.4301818,
 	"longitude": 14.5509623
-}'''
+}
+```
 
-###GET localhost:8080/api/localizations/distances
-
-####Przykładowy JSON (przekazywany w body): 
-
-'''{
+### 4. GET - localhost:8080/api/localizations/distances
+##### Przykładowy JSON (przekazywany w body): 
+```
+{
 	"name": "Actual Position",
 	"latitude": 53.4301818,
 	"longitude": 14.5509623
-}'''
+}
+```
 
