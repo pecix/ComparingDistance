@@ -1,5 +1,6 @@
 package com.servocode.ComparingDistance.controller;
 
+import com.servocode.ComparingDistance.model.Coordinates;
 import com.servocode.ComparingDistance.model.Localization;
 import com.servocode.ComparingDistance.model.Message;
 import com.servocode.ComparingDistance.service.LocalizationService;
@@ -30,12 +31,12 @@ public class LocalizationController {
     }
 
     @GetMapping("/distances")
-    public ResponseEntity getHash(@RequestBody Localization actualPosition){
+    public ResponseEntity getDistances(@RequestBody Coordinates actualPosition){
         return ResponseEntity.status(200).body(service.getDistanceToAllLocations(actualPosition));
     }
 
     @GetMapping("/nearest")
-    public ResponseEntity getNearest(@RequestBody Localization actualPosition){
+    public ResponseEntity getNearest(@RequestBody Coordinates actualPosition){
         return ResponseEntity.status(200).body(new Message("Nearest place name: " + service.getNearestPlace(actualPosition)));
     }
 

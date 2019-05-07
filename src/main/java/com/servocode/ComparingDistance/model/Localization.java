@@ -8,7 +8,6 @@ import lombok.Data;
 public class Localization {
 
     private String name;
-    private double latitude;
-    private double longitude;
+    private Coordinates coordinates;
 
 }
